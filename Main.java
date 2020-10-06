@@ -18,6 +18,7 @@ public class Main {
     System.out.println("Please enter a number between 1 and 10");
     int userNum = input.nextInt();
 
+    //create for loop to print out "*" the amount of times the user wants
     for(int count = 1; count <= userNum; count++){
       System.out.print("*");
     }
